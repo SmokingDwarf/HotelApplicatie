@@ -21,7 +21,7 @@ public class HotelApp extends Application {
     @Override
     public void start(Stage stage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(HotelApp.class.getResource("HotelOverzicht.fxml"));
-//                getClass().getResource("/hotel/hotelapplicatie/hotelOverzicht.fxml"));
+//                getClass().getResource("/hotel/hotelapplicatie/’hotelOverzicht.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), 320, 240);
         stage.setTitle("HotelApp");
         stage.setScene(scene);
