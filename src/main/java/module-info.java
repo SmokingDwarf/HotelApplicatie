@@ -10,6 +10,7 @@ module hotel.hotelapplicatie {
     requires org.kordamp.bootstrapfx.core;
     requires eu.hansolo.tilesfx;
     requires com.almasb.fxgl.all;
+    requires java.desktop;
 
     opens hotel.hotelapplicatie to javafx.fxml;
     exports hotel.hotelapplicatie;
