@@ -23,7 +23,6 @@ public class HotelOverzichtController {
     @FXML private ListView boekingenListView;
     @FXML private DatePicker overzichtDatePicker;
 
-
     private final Hotel hotel = Hotel.getHotel();
 
     public void initialize() {
@@ -56,8 +55,8 @@ public class HotelOverzichtController {
 
             toonBoekingen();
         } catch (Exception e) {
-//            System.out.println("Het lukt niet om de pagina te laden.");
-            e.printStackTrace();
+            System.out.println("Het lukt niet om de pagina te laden.");
+//            e.printStackTrace();
         }
     }
 

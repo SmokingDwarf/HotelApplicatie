@@ -9,7 +9,7 @@
             xmlns:fx="http://javafx.com/fxml/1"
             fx:controller="hotel.hotelapplicatie.userinterface.BoekingenController">
    <children>
-      <Label layoutX="63.0" layoutY="54.0" text="Voer uw gegevens in!" />
+      <Label fx:id="meldingLabel" layoutX="63.0" layoutY="54.0" text="Voer uw gegevens in!" />
       <Label layoutX="57.0" layoutY="88.0" text="Naam:" />
       <Label layoutX="57.0" layoutY="125.0" text="Adres:" />
       <Label layoutX="57.0" layoutY="162.0" text="Aankomstdatum:" />
